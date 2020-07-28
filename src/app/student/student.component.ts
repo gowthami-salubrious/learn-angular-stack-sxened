@@ -17,7 +17,7 @@ export class StudentComponent implements OnChanges, OnInit, DoCheck, AfterViewIn
       this.myInputData = 'in side comp';
     }, 10000);
   }
-
+ 
   ngOnChanges() {
     console.log('on changes');
   }
